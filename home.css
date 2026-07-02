@@ -452,7 +452,8 @@ body{
         width: 485px;
         height: 600px;
         border-radius: 8px;
-        /* border:1px solid #ffffff28; */
+        border:1px solid #ffffff28;
+        background-color: #000;
 }
 
 .thirdpost_section2{
@@ -500,4 +501,81 @@ body{
         border-radius: 8px;
         border:1px solid #ffffff28;
     }
+}
+
+.red{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    position: absolute;
+    left: 27px;
+    bottom: 10px;
+}
+.messagebar{
+    width: 250px;
+    height: 58px;
+    background-color: #212328;
+    margin-left: 1235px;
+    margin-top: 610px;
+    border-radius: 690px;
+    position: fixed;
+    border: 1px solid #262626;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+.text4{
+    display: flex;
+    width: 100%;
+    gap: 12px;
+    margin-left: 14px;
+}
+.text-bar{
+    margin-top: 5px;
+}
+
+.size{
+    display: flex;
+    margin-right: 15px;
+    img{
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        margin-left: -5px;
+    }
+}
+.mess{
+    position: relative;
+}
+.red1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+}
+.more2{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #363636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -5px;
+
 }
