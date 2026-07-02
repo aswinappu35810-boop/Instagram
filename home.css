@@ -9,7 +9,7 @@ body{
 .container{
     display: flex;
     width: 100%;
-    height: 110hv;
+    height: 300vh;
     background-color: #0C1014;
 }
 
@@ -113,8 +113,8 @@ body{
     flex-direction: column;
     /* gap: 8px; */
     width: 612px;
-    height: 800px;
-    /* background-color: aliceblue; */
+    height: 300vh;
+    /* background-color: rgb(0, 136, 255); */
     margin-left: 300px;
 
 }
@@ -187,8 +187,10 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
-    /* background-color: white; */
+    height: 300vh;
+    margin-top: 65px;
+    margin-left: 0px;
+    /* background-color: rgb(113, 255, 95); */
 }
 
 .firstpost{
@@ -199,7 +201,17 @@ body{
     height:640px;
     /* justify-content: center;
     align-items: center; */
-    background-color: rgb(63, 21, 21);
+    /* background-color: rgb(63, 21, 21); */
+}
+.thirdpost{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 500px;
+    height:640px;
+    /* justify-content: center;
+    align-items: center; */
+    /* background-color: rgb(63, 21, 21); */
 }
 
 .username{
@@ -208,7 +220,20 @@ body{
     align-items: center;
     color: #000;
 }
+.username3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+}
 
+.username-left3{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
 .username-left{
     display: flex;
     justify-content: start;
@@ -244,11 +269,24 @@ body{
     img{
         height: 29px;
         width: 29px;
-        margin-top: 5.9px;
+        margin-top: 0px;
         margin-left:0px;
     }
 }
-.user-details2{
+.user-details3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    img{
+        height: 29px;
+        width: 29px;
+        margin-top: 2.2px;
+        margin-left:0px;
+    }
+}
+/* .user-details2{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -256,7 +294,7 @@ body{
     img{
         height: 1px;
     }
-}
+} */
 .dot{
     margin-bottom: 5px;
     margin-right: 5px;
@@ -280,6 +318,7 @@ body{
     align-items: center;
     width: 100%px;
     height: 200px;
+    margin-top: 5PX;
     /* background-color: #fff; */
 
 }
@@ -350,4 +389,115 @@ body{
     width: 24px;
     height: 24px;
     margin-bottom: -8PX;
+}
+
+
+.second-post{
+        display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 500px;
+    height: 770px;;
+    /* justify-content: center;
+    align-items: center; */
+    /* background-color: rgb(254, 37, 37); */
+}
+
+.follow{
+    width: 120px;
+    height: 50px;
+    /* background-color: #4f5bd5; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0px;
+    button{
+        height: 32px;
+        width: 75px;
+        color: white;
+        /* background-color: #363C44; */
+        background-color: #25292F;
+        font-weight: 600;
+        border: 0;
+        border-radius: 5px;
+        font-size: 14px;
+        margin-right: -10px;
+    }
+}
+.follow:hover button{
+    background-color: #363C44;
+    cursor: pointer;
+}
+
+.user-details-right{
+    padding-right: 10PX;
+}
+
+.suggestion{
+    display: flex;
+    flex-direction: column;
+
+    /* background-color: #0C1014; */
+}
+
+.suggesst{
+    margin-top: -15px;
+    margin-left: 50px;
+}
+
+
+.post_image video{
+        margin-left: -2PX;
+        margin-top:8px;
+        width: 485px;
+        height: 600px;
+        border-radius: 8px;
+        /* border:1px solid #ffffff28; */
+}
+
+.thirdpost_section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%px;
+    height: 200px;
+    margin-top: 5PX;
+    /* background-color: #fff; */
+
+}
+.thirdpost_section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%px;
+    height: 200px;
+    margin-top: 25PX;
+    /* background-color: #fff; */
+
+}
+
+.dots3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5px;
+}
+.dot3{
+    height: 5px;
+    width: 5px;
+    border-radius: 10px;
+    background-color: #4A5DF9;
+}
+
+
+.post3_image{
+        margin-left: 10PX;
+        margin-top:8px;
+    img{
+        width: 485px;
+        height: 600px;
+        border-radius: 8px;
+        border:1px solid #ffffff28;
+    }
 }
