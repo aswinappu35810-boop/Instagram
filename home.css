@@ -362,17 +362,18 @@ body{
         height: 20px;
         width:20px;
         border-radius: 20px;
+        margin-left: -12px;
     }
 }
 
-.liked-profile2{
-    /* position: relative; */
+/* .liked-profile2{
+    position: relative;
     margin-left: -12px;
 }
 .liked-profile1{
     margin-left: -12px;
 }
-
+ */
 
 
 .detail{
@@ -381,7 +382,7 @@ body{
     align-items: center;
     width: 100%;
     /* background-color: rgb(221, 7, 7); */
-    padding-left: 66px;
+    margin-right: -55px;
     color: #fff;
 }
 
@@ -497,7 +498,7 @@ body{
         margin-top:8px;
     img{
         width: 485px;
-        height: 600px;
+        height: 630px;
         border-radius: 8px;
         border:1px solid #ffffff28;
     }
@@ -578,4 +579,10 @@ body{
     justify-content: center;
     margin-left: -5px;
 
+}
+
+
+.messagebar:hover{
+    background-color: #363C44;
+    cursor: pointer;
 }
