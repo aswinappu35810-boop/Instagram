@@ -713,3 +713,44 @@ body{
     display: flex;
     gap: 2px;
 }
+
+.discription{
+    display: flex;
+    flex-direction: column;
+    color: #8E8F8F;
+    font-size: 12px;
+    font-family: "Intern",sans-serif;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+.discription-top{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.about{
+    display: flex;
+    gap: 5px;
+}
+.location{
+    display: flex;
+    gap: 5px;
+}
+.about1{
+   text-decoration: none;  
+   cursor: pointer;
+}
+.location1{
+    text-decoration: none;
+    cursor: pointer;
+}
+.about1:hover{
+    display: flex;
+    text-decoration: underline;
+}
+
+.location1:hover{
+    display: flex;
+    text-decoration: underline;
+}
