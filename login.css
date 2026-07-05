@@ -233,14 +233,14 @@ img{
     gap: 10px;
 }
 
-.footer-bottom input{
-    width: 59px;
+.footer-bottom select{
+    width: 65px;
     height: 70px;
     font-size: 12px;
     background-color: transparent;
     border: none;
     outline: none;
-    color: white;
+    color: rgb(160, 160, 160);
 }
 a {
     text-decoration: none;
