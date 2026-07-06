@@ -20,9 +20,9 @@ body{
     align-items: center;
     justify-content: start;
     width: 55%;
-    height: 700px;
+    height: 695px;
     background-color: #0C1014;;
-    border-right: 3px solid #494D53;
+    border-right: 2px solid #494D53;
     border-bottom: 1px solid #494D53;
 }
 
@@ -87,9 +87,9 @@ img{
     align-items: center;
     justify-content: center;
     width: 45%;
-    height: 700px;
+    height: 695px;
     background-color: #1F1F22;
-    border-right: 2px solid #494D53;
+    border-right: 1px solid #494D53;
     border-bottom: 1px solid #494D53;
 }
 .content-right{
@@ -100,8 +100,8 @@ img{
     width: 85%;
     height: 600px;
     /* gap: 10px; */
-    margin-top: 50px;
-    margin-left: -25px;
+    margin-top: -10px;
+    margin-left: -20px;
     /* background-color: rgb(0, 30, 56); */
 }
 
