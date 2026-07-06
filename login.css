@@ -136,8 +136,19 @@ img{
     /* background-color: #133B6E; */
     outline: none;
 }
+
+.first-section input:focus{
+    border: 1px solid #0080f8;
+
+}
+.first-section input:hover{
+    border: 1px solid white;
+}
 .login{
     background-color:#133B6E ;
+}
+.login:focus{
+    background-color: #0080f8;
 }
 
 .forgot{
