@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    font-family: "Inter",sans-serif;
 }
 body{
     background-color: #0C1014;
@@ -31,6 +31,10 @@ body{
    height: fit-content;
    width: fit-content;
    margin-top: 15px;
+}
+
+.message{
+    position: relative;
 }
 
 .instagram,
@@ -200,6 +204,7 @@ body{
     justify-content: start;
     width: 500px;
     height:640px;
+    font-size: 14px;
     /* justify-content: center; */
     /* align-items: center; */
     /* background-color: rgb(63, 21, 21); */
@@ -272,7 +277,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    font-size: 13px;
     img{
         height: 29px;
         width: 29px;
@@ -285,7 +290,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    font-size: 13px;
     img{
         height: 29px;
         width: 29px;
@@ -326,6 +331,7 @@ body{
     width: 100%px;
     height: 200px;
     margin-top: 5PX;
+    font-size: 14px;
     /* background-color: #fff; */
 
 }
@@ -373,10 +379,19 @@ body{
 
 .likedby{
     display: flex;
-    margin-right: 125px;
+    margin-right: 130px;
     margin-top: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
     gap: 5px;
+}
+
+.likedby2{
+    display: flex;
+    margin-right: 138px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    gap: 5px;
+    /* background-color: #4f5bd5; */
 }
 
 .liked-profile3,
@@ -410,8 +425,38 @@ body{
     margin-right: -55px;
     color: #fff;
 }
+.detail1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    /* background-color: rgb(221, 7, 7); */
+    margin-right: -55px;
+    color: #fff;
+}
+.detail2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    /* background-color: rgb(221, 7, 7); */
+    margin-right: -60px;
+    margin-top: 5px;
+    color: #fff;
+}
 
 .detail img{
+    width: 24px;
+    height: 24px;
+    margin-bottom: -8PX;
+}
+.detail1 img{
+    width: 24px;
+    height: 24px;
+    margin-bottom: -8PX;
+}
+.detail2 img{
     width: 24px;
     height: 24px;
     margin-bottom: -8PX;
@@ -482,16 +527,16 @@ body{
         background-color: #000;
 }
 
-.thirdpost_section2{
+/* .thirdpost_section2{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%px;
     height: 200px;
     margin-top: 5PX;
-    /* background-color: #fff; */
+    background-color: #fff;
 
-}
+} */
 .thirdpost_section3{
     display: flex;
     flex-direction: column;
@@ -499,6 +544,7 @@ body{
     width: 100%px;
     height: 200px;
     margin-top: 25PX;
+    font-size: 14px;
     /* background-color: #fff; */
 
 }
@@ -560,9 +606,11 @@ body{
 
 .text4{
     display: flex;
+    position: relative;
     width: 100%;
     gap: 12px;
     margin-left: 14px;
+    /* background-color: #4f5bd5; */
 }
 .text-bar{
     margin-top: 5px;
@@ -581,6 +629,19 @@ body{
 .mess{
     position: relative;
 }
+.red{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    position: absolute;
+    top: 14px;
+    left: 13px;
+}
 .red1{
     width: 20px;
     height: 20px;
@@ -591,8 +652,8 @@ body{
     justify-content: center;
     font-size: 12px;
     position: absolute;
-    top: 16px;
-    left: 15px;
+    top: 19px;
+    left: 21px;
 }
 .more2{
     width: 22px;
@@ -678,10 +739,21 @@ body{
     color: #6681E8;
     cursor: pointer;
 }
+.switch2{
+    font-size: 12px;
+    color: #6681E8;
+    cursor: pointer;
+}
 .switch:hover{
     /* font-size: 12px; */
     color: #9BB3F2;
     text-decoration: underline;
+    
+}
+.switch2:hover{
+    /* font-size: 12px; */
+    color: #9BB3F2;
+    text-decoration: none;
     
 }
 .see-all{
